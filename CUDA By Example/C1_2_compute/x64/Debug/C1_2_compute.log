@@ -1,0 +1,9 @@
+﻿E:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(C1_2_compute.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Compiling CUDA source file kernel.cu...
+  
+  D:\LearnCodes\CUDA By Example\C1_2_compute>"E:\CUDA NVDIA GPU Computing Toolkit\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"E:\CUDA NVDIA GPU Computing Toolkit\v12.3\include" -I"E:\CUDA NVDIA GPU Computing Toolkit\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "D:\LearnCodes\CUDA By Example\C1_2_compute\x64\Debug\kernel.cu.obj" "D:\LearnCodes\CUDA By Example\C1_2_compute\kernel.cu" 
+  kernel.cu
+  tmpxft_00000da8_00000000-7_kernel.cudafe1.cpp
+    正在创建库 D:\LearnCodes\CUDA By Example\C1_2_compute\x64\Debug\CBEC_1_2_compute.lib 和对象 D:\LearnCodes\CUDA By Example\C1_2_compute\x64\Debug\CBEC_1_2_compute.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  C1_2_compute.vcxproj -> D:\LearnCodes\CUDA By Example\C1_2_compute\x64\Debug\CBEC_1_2_compute.exe

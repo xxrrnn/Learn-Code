@@ -1,0 +1,1 @@
+D:\LearnCodes\CUDA By Example\C1_2_compute\x64\Debug\CBEC_1_2_compute.exe

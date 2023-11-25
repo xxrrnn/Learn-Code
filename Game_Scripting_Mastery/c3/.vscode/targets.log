@@ -1,0 +1,319 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Aug 30 11:37:28 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# environment
+CUDA_PATH_V11_6 = D:\cuda\NVIDIA GPU Computing Toolkit;
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst % 
+\,%,$(dir $^)))
+# makefile
+CURDIR := d:/Desktop/cpp_test
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"C:\\Users\\xrn\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\xrn\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\xrn\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\xrn\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\xrn\OneDrive
+# environment
+INSTALLDIR_A-2007.09 = C:\synopsys\Hspice_A-2007.09
+# environment
+QSYS_ROOTDIR = D:\Quartus\quartus\sopc_builder\bin
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\xrn\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = D:\Desktop\cpp_test
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\cuda\NVIDIA GPU Computing Toolkit;D:\cuda\NVIDIA GPU Computing Toolkit\lib\x64;D:\cuda\NVIDIA GPU Computing Toolkit\bin;D:\cuda\NVIDIA GPU Computing Toolkit\libnvvp;C:\Users\xrn\anaconda3;C:\Users\xrn\anaconda3\Library\mingw-w64\bin;C:\Users\xrn\anaconda3\Library\usr\bin;C:\Users\xrn\anaconda3\Library\bin;C:\Users\xrn\anaconda3\Scripts;C:\Users\xrn\miniconda3;C:\Users\xrn\miniconda3\Library\mingw-w64\bin;C:\Users\xrn\miniconda3\Library\usr\bin;C:\Users\xrn\miniconda3\Library\bin;C:\Users\xrn\miniconda3\Scripts;C:\Users\xrn\AppData\Local\Microsoft\WindowsApps;D:\Quartus\modelsim_ase\win32aloem;D:\Microsoft VS Code\bin;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\MinGW\bin;C:\MinGW\include;C:\MinGW\lib;D:\cuda\NVIDIA GPU Computing Toolkit;D:\cuda\NVIDIA GPU Computing Toolkit\lib\x64;D:\cuda\NVIDIA GPU Computing Toolkit\bin;D:\cuda\NVIDIA GPU Computing Toolkit\libnvvp;
+# environment
+LM_LICENSE_FILE = C:\synopsys\Hspice_A-2007.09\hspice_2007-09.lic
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\xrn
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SOPC_KIT_NIOS2 = D:\Quartus\nios2eds
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22160_YUVFCKKANMPTLUGT
+# environment
+COMPUTERNAME = DESKTOP-A29AP99
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = xrn
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\xrn\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-A29AP99
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-A29AP99
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+FLEXLM_BATCH = 1
+# environment
+INSTALLDIR = C:\synopsys\Hspice_A-2007.09
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\xrn\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# enviro 
+nment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\80193e352a2b8749cf6ed454532a164d-1.70.2-main-sock
+# environment
+HOMEPATH = \Users\xrn
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\xrn\AppData\Roaming
+# environment
+TEMP = C:\Users\xrn\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+QUARTUS_ROOTDIR = D:\Quartus\quartus
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = D:\cuda\NVIDIA GPU Computing Toolkit;
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = 
+ Console
+# environment
+PROCESSOR_REVISION = 9e09
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 22160
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-A29AP99
+# variable set hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=11/115=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\xrn\miniconda3\Scripts (key C:/Users/xrn/miniconda3/Scripts, mtime 1657562088): 66 files, no impossibilities.
+# C:\Users\xrn\anaconda3 (key C:/Users/xrn/anaconda3, mtime 1657623280): 89 files, no impossibilities.
+# D:\cuda\NVIDIA GPU Computing Toolkit\libnvvp: could not be stat'd.
+# C:\Users\xrn\miniconda3\Library\mingw-w64\bin: could not be stat'd.
+# . (key d:/Desktop/cpp_test, mtime 1661830577): 4 files, no impossibilities.
+# D:\Microsoft VS Code\bin (key D:/Microsoft VS Code/bin, mtime 1661350342): 4 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1659166767): 5 files, no impossibilities.
+# C:\Users\xrn\anaconda3\Library\usr\bin: could not be stat'd.
+# C:\Users\xrn\anaconda3\Library\bin (key C:/Users/xrn/anaconda3/Library/bin, mtime 1657623167): 441 files, no impossibilities.
+# C:\Users\xrn\anaconda3\Scripts (key C:/Users/xrn/anaconda3/Scripts, mtime 1657623285): 360 files, no impossibilities 
+.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1655737930): 144 files, no impossibilities.
+# D:\cuda\NVIDIA GPU Computing Toolkit\bin: could not be stat'd.
+# C:\Users\xrn\anaconda3\Library\mingw-w64\bin (key C:/Users/xrn/anaconda3/Library/mingw-w64/bin, mtime 1657561502): 5 files, no impossibilities.
+# D:\Quartus\modelsim_ase\win32aloem (key D:/Quartus/modelsim_ase/win32aloem, mtime 1653667401): 110 files, no impossibilities.
+# C:\MinGW\lib (key C:/MinGW/lib, mtime 1655656132): 202 files, no impossibilities.
+# C:\MinGW\include (key C:/MinGW/include, mtime 1655656132): 305 files, no impossibilities.
+# C:\Users\xrn\miniconda3 (key C:/Users/xrn/miniconda3, mtime 1657562088): 87 files, no impossibilities.
+# C:\Users\xrn\AppData\Local\Microsoft\WindowsApps (key C:/Users/xrn/AppData/Local/Microsoft/WindowsApps, mtime 1660864377): 31 files, no impossibilities.
+# D:\cuda\NVIDIA GPU Computing Toolkit\lib\x64: could not be stat'd.
+# C:\iverilog\gtkwave\bin (key C:/iverilog/gtkwave/bin, mtime 1655564300): 52 files, no impossibilities.
+# C:\Users\xrn\miniconda3\Library\usr\bin: could not be stat'd.
+# C:\iverilog\bin (key C:/iverilog/bin, mtime 1655564298): 13 files, no impossibilities.
+# C:\Users\xrn\miniconda3\Library\bin (key C:/Users/xrn/miniconda3/Library/bin, mtime 1657562061): 163 files, no impossibilities.
+# D:\cuda\NVIDIA GPU Computing Toolkit: could not be stat'd.
+
+# 2081 files, no impossibilities in 24 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a  
+make.exe: *** No rule to make target 'all'.  Stop.
+
+target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 4 (3) / strings = 1710 / storage = 24709 B / avg = 14 B
+# current buf: size = 8174 B / used = 212 B / count = 18 / avg = 11 B
+# other used: total = 16535 B / count = 1692 / avg = 9 B
+# other free: total = 25 B / max = 11 B / min = 5 B / avg = 8 B
+
+# strcache performance: lookups = 2113 / hit rate = 19%
+# hash-table stats:
+# Load=1710/8192=21%, Rehash=0, Collisions=290/2113=14%
+# Finished Make data base on Tue Aug 30 11:37:28 2022
+
+ 

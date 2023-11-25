@@ -1,0 +1,1 @@
+D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\x64\Debug\CBE_C10_STREAM.exe

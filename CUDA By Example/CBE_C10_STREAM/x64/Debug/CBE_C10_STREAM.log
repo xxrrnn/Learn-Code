@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file 2 single stream.cu...
+  Compiling CUDA source file 3 double_stream_correct.cu...
+  
+  D:\LearnCodes\CUDA By Example\CBE_C10_STREAM>"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\include" -I"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o "D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\x64\Debug\2 single stream.cu.obj" "D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\2 single stream.cu" 
+  
+  D:\LearnCodes\CUDA By Example\CBE_C10_STREAM>"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\include" -I"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o "D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\x64\Debug\3 double_stream_correct.cu.obj" "D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\3 double_stream_correct.cu" 
+  2 single stream.cu
+  3 double_stream_correct.cu
+3 double_stream_correct.cu.obj : error LNK2005: main 已经在 2 single stream.cu.obj 中定义
+    正在创建库 D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\x64\Debug\CBE_C10_STREAM.lib 和对象 D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\x64\Debug\CBE_C10_STREAM.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+D:\LearnCodes\CUDA By Example\CBE_C10_STREAM\x64\Debug\CBE_C10_STREAM.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

@@ -1,0 +1,18 @@
+﻿  Compiling CUDA source file 3 prop.cu...
+  
+  D:\LearnCodes\CUDA By Example\CBE_C1>"E:\CUDA NVDIA GPU Computing Toolkit\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"E:\CUDA NVDIA GPU Computing Toolkit\v12.3\include" -I"E:\CUDA NVDIA GPU Computing Toolkit\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "D:\LearnCodes\CUDA By Example\CBE_C1\x64\Debug\3 prop.cu.obj" "D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu" 
+E:\CUDA NVDIA GPU Computing Toolkit\v12.3\include\cuda.h(21757): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\CUDA NVDIA GPU Computing Toolkit\v12.3\include\cuda.h(21757): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  3 prop.cu
+  tmpxft_000061a8_00000000-7_3 prop.cudafe1.cpp
+D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(33): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“size_t”
+  D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(33): note: 请考虑在格式字符串中使用“%zd”
+D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(34): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“size_t”
+  D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(34): note: 请考虑在格式字符串中使用“%zd”
+D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(35): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“size_t”
+  D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(35): note: 请考虑在格式字符串中使用“%zd”
+D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(40): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“size_t”
+  D:\LearnCodes\CUDA By Example\CBE_C1\3 prop.cu(40): note: 请考虑在格式字符串中使用“%zd”
+    正在创建库 D:\LearnCodes\CUDA By Example\CBE_C1\x64\Debug\CBE_C1.lib 和对象 D:\LearnCodes\CUDA By Example\CBE_C1\x64\Debug\CBE_C1.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CBE_C1.vcxproj -> D:\LearnCodes\CUDA By Example\CBE_C1\x64\Debug\CBE_C1.exe

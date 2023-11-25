@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file time host alloc.cu...
+  
+  D:\LearnCodes\CUDA By Example\CBE_C11>"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "E:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64" -x cu   -I"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\include" -I"E:\CUDA NVDIA GPU Computing Toolkit\v11.8\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o "D:\LearnCodes\CUDA By Example\CBE_C11\x64\Debug\time host alloc.cu.obj" "D:\LearnCodes\CUDA By Example\CBE_C11\time host alloc.cu" 
+  time host alloc.cu
+D:\LearnCodes\CUDA By Example\CBE_C11\time host alloc.cu(83): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\LearnCodes\CUDA By Example\CBE_C11\time host alloc.cu(84): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\LearnCodes\CUDA By Example\CBE_C11\time host alloc.cu(161): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\LearnCodes\CUDA By Example\CBE_C11\time host alloc.cu(162): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\LearnCodes\CUDA By Example\CBE_C11\time host alloc.cu(170): warning C4996: 'cudaThreadSynchronize': 被声明为已否决
+    正在创建库 D:\LearnCodes\CUDA By Example\CBE_C11\x64\Debug\CBE_C11.lib 和对象 D:\LearnCodes\CUDA By Example\CBE_C11\x64\Debug\CBE_C11.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  CBE_C11.vcxproj -> D:\LearnCodes\CUDA By Example\CBE_C11\x64\Debug\CBE_C11.exe
